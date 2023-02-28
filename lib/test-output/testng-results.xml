@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-02-24T10:12:31Z" name="Suite" finished-at="2023-02-24T10:12:43Z" duration-ms="11918">
+    <groups>
+    </groups>
+    <test started-at="2023-02-24T10:12:31Z" name="Test" finished-at="2023-02-24T10:12:43Z" duration-ms="11918">
+      <class name="TestClass.OpenAppTest">
+        <test-method is-config="true" signature="setUp(java.lang.String, org.testng.ITestContext)[pri:0, instance:TestClass.OpenAppTest@53dbe163]" started-at="2023-02-24T10:12:32Z" name="setUp" finished-at="2023-02-24T10:12:42Z" duration-ms="10220" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@4d4436d0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="OpenApp()[pri:1, instance:TestClass.OpenAppTest@53dbe163]" started-at="2023-02-24T10:12:42Z" name="OpenApp" finished-at="2023-02-24T10:12:43Z" duration-ms="766" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenApp -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestClass.OpenAppTest@53dbe163]" started-at="2023-02-24T10:12:43Z" name="tearDown" finished-at="2023-02-24T10:12:43Z" duration-ms="228" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- TestClass.OpenAppTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
